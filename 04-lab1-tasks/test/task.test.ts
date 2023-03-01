@@ -1,5 +1,6 @@
 
 
+import { test } from "../src/test";
 test('task 3', () => {
   //TDD
   const input = 'HeFlo';
