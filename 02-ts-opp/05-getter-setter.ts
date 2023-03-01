@@ -1,4 +1,4 @@
-class MyDate4 {
+class MyDategetter {
   private year: number;
   public month: number;
   day: number;
@@ -8,9 +8,18 @@ class MyDate4 {
       this.day = day;
   }
 
-  private printdate(){
+  printdate(){
       return `${this.year}/${this.month}/${this.day}`;
+  }
+
+  get getYear() {
+      return this.year;
+  }
+
+  set setYear(newYear: number) {
+      this.year = newYear;
   }
 }
 
-const myDate4 = new MyDate4(1995, 2, 15);
+const myDate5 = new MyDategetter(1995, 2, 15);
+myDate5.setYear = 15;

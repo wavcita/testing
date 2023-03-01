@@ -1,23 +1,18 @@
-//un objeto es un template
-const date = new Date();
-const date2 = new Date(2022 , 1 ,12);
+class MyDate2 {
+  year: number;
+  month: number;
+  day: number;
+  constructor(year: number, month: number, day: number){
+      this.year = year;
+      this.month = month;
+      this.day = day;
+  }
 
-class MyDate {
-                year; number;
-                month: number;
-                day: number;
-    constructor(year: number,
-                month: number,
-                day: number)
-                {
-this.year = year;
-this.month = month;
-this.day = day;
-                }
-
-                prindate(){
-                    return `${this.year}/${this.month}/${this.day}`;
-                }
+  printdate(){
+      return `${this.year}/${this.month}/${this.day}`;
+  }
 }
-const MyDate = new MyDate(1995 , 2 , 15);
-console.log(MyDate)
+
+const myDate2 = new MyDate2(1995, 2, 15);
+//const myDate = new MyDate();
+console.log(myDate2.printdate());
