@@ -1,0 +1,19 @@
+1 //*[@id="wt-site-header"]/div/div/div[2]/a
+
+2 //*[@id="wt-site-header"]/div/div/div[2]/div[1]/div/nav/div[2]/button
+
+3 //*[@id="wt-site-header"]/div/div/div[2]/div[1]/div/div/div/div[3]/a
+
+4 //*[@id="js-menu-second-desktop"]/a[6]
+
+5 //*[@id="overview-content"]/div/section[3]/div/div[1]/div[6]/a
+
+6 //*[@id="overview-content"]/div/section[6]/div/div/div[1]/div/ul/li[6]/p/a
+
+7 //*[@id="overview-content"]/div/section[6]/div/div/div[1]/div/div/span/button
+
+8 //*[@id="overview-content"]/div/section[6]/div/div/div[2]/div/div/span/a
+
+9 //*[@id="overview-content"]/div/section[6]/div/a
+
+10 /html/body/div[2]/div[2]
