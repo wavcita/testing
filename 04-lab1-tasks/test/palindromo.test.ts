@@ -1,6 +1,6 @@
 // Uso de la clase
 import { PalindromeChecker } from "../src/palindromo";
-palindromo('task 4', () => {
+test('task_4', () => {
 const word = 'ana';
 const checker = new PalindromeChecker(word);
 if (checker.isPalindrome()) {

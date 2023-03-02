@@ -6,7 +6,7 @@ export class StringArrayConverter {
   }
 }
 
-class UpperCaseStringArrayConverter extends StringArrayConverter {
+export class UpperCaseStringArrayConverter extends StringArrayConverter {
   public toArray(): string[] {
     return super.toArray().map(char => char.toUpperCase());
   }

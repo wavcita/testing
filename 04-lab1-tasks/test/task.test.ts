@@ -1,7 +1,7 @@
 
 
-import { test } from "../src/test";
-test('task 3', () => {
+import { Task } from "../src/task";
+test('task_3', () => {
   //TDD
   const input = 'HeFlo';
   const task3 = jest.fn((input: string) => ['H', 'e', 'F', 'l', 'o']);
@@ -15,6 +15,6 @@ test('task 3', () => {
   const expc = ['H', 'e', 'F', 'l', 'o'];
 
 
-  execpt(actual).toEqual(expc);
+  expect(actual).toEqual(expc);
   //expect(actual).toBeTruthy()
 });

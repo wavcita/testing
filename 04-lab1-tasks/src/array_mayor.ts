@@ -6,7 +6,7 @@ export class ArraySearcher {
   }
 }
 
-class NumberFinder extends ArraySearcher {
+export class NumberFinder extends ArraySearcher {
   public find95(): number | undefined {
     return this.findNumber(95);
   }
