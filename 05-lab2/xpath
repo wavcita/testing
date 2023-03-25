@@ -1,19 +1,39 @@
 1 //*[@id="wt-site-header"]/div/div/div[2]/a
+Correccion
+//a[@aria-label='Ir a la página principal']
 
 2 //*[@id="wt-site-header"]/div/div/div[2]/div[1]/div/nav/div[2]/button
+correcccion
+//button[@class='_mainMenuItem__action_waloy _mainMenuItem__action_lvgl9 _mainMenuItem__action_puj4j _mainMenuItem__action_l8bdw _mainMenuItem__action_sqoqgh _mainMenuItem__action_gpg6ci _mainMenuItem__action_y9h3og _mainMenuItem__action_rk635 _mainMenuItem__action_89uwt _mainMenuItem__action_pc1o6'][normalize-space()='Para equipos']
 
 3 //*[@id="wt-site-header"]/div/div/div[2]/div[1]/div/div/div/div[3]/a
+Correccion
+//a[@aria-label='Ir a la tienda']
 
 4 //*[@id="js-menu-second-desktop"]/a[6]
+Correccion
+//a[@class='wt-col-inline menu-second__download-button wt-button wt-button_size_s wt-button_mode_primary']
 
 5 //*[@id="overview-content"]/div/section[3]/div/div[1]/div[6]/a
+Correccion
+//*[name()='use' and contains(@href,'#collabora')]
+//a[@href='/es-es/idea/features#collaborative']
 
 6 //*[@id="overview-content"]/div/section[6]/div/div/div[1]/div/ul/li[6]/p/a
+Correccion
+//a[normalize-space()='IntelliJ Profiler']
 
 7 //*[@id="overview-content"]/div/section[6]/div/div/div[1]/div/div/span/button
+correccion
+//div[@class='wt-offset-top-32 comparison-card__button']//button[@type='button'][normalize-space()='.tar.gz']
 
 8 //*[@id="overview-content"]/div/section[6]/div/div/div[2]/div/div/span/a
+Correccion
+//a[@href='/es-es/idea/download/download-thanks.html?platform=linux&code=IIC']
 
 9 //*[@id="overview-content"]/div/section[6]/div/a
+correccion
+//a[normalize-space()='Comparar ediciones']
 
 10 /html/body/div[2]/div[2]
+//div[@class='wt-tooltip__content']
